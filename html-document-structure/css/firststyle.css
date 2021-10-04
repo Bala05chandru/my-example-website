@@ -1,0 +1,253 @@
+/* make sure the file is in the same folder or the sub folder of the HTML file */
+/* Cascade means a small falls, which have step by step waterflow */
+
+
+/* Specificity is more important while selecting a style */
+/* whichever comes last will have the precedence */
+/* priority list is as follows */
+/* 1.element
+2.descendant selector
+3.specific descendant
+4.class
+5.specific class */
+
+/* example for a type selector */
+/* h1 {
+    color: olivedrab;
+    /* color is a property and olivedrap is a value, this whole statement is called declaration */
+    /* text-align: center;
+}
+
+p {
+    color: peru;
+    text-align: justify;
+}
+
+
+/* example for a class selector */
+/* .highlight {
+
+    color: red;
+    background-color: rosybrown; */ 
+
+/* } 
+/* footer {
+    color: darkblue;
+} */
+
+/* descendant selector */
+/* footer {
+    color: blue;
+    background-color: coral;
+} */
+
+/* footer .highlight {
+
+    color:darkred;
+    background-color: deeppink; */ 
+
+.container {
+
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* CSS box model */
+.box-a {
+    width: 60%;
+    color:forestgreen;
+    background-color: gold;
+    /* padding: 5px;
+    margin:15px; */
+    /* box-sizing: border-box; */
+    float: left;
+} 
+
+.box-b {
+    
+    width: 40%;
+    background-color: green;
+    float: left;
+    
+
+}
+
+/* .box-c {
+    color:forestgreen;
+    background-color: gold;
+    padding: 5px;
+    margin:15px;
+    max-width: 60%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.box-d {
+    background-color: green;
+    float:right;
+    max-width: 35%;
+    box-sizing: border-box;
+} */
+
+.fix {
+
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    width: 25%;
+    height: auto;
+    float: right;
+}
+
+.box-c {
+    color:forestgreen;
+    background-color: gold;
+    padding: 5px;
+    margin:15px;
+    width: 65%;
+    height:100px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.box-d {
+    
+    width: 25%;
+    height: auto;
+    float: right;
+}
